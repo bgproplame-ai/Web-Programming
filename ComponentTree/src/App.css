@@ -1,0 +1,41 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header,
+.footer {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.nav a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  gap: 12px;
+}
+
+.sidebar {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.content {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+}
