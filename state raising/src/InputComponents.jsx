@@ -15,7 +15,7 @@ export default function InputComponent({
           type="number"
           value={num1}
           onChange={(e) => onNum1Change(e.target.value)}
-          placeholder="например 5"
+          placeholder="въведи число"
         />
       </label>
 
@@ -26,7 +26,7 @@ export default function InputComponent({
           type="number"
           value={num2}
           onChange={(e) => onNum2Change(e.target.value)}
-          placeholder="например 5"
+          placeholder="въведи число"
         />
       </label>
 
